@@ -1,8 +1,9 @@
-
-
 import { createApp } from "vue";
 import App from "./App.vue";
 import SolanaWallets from "solana-wallets-vue";
+
+import "./assets/style.css"
+import "./assets/main.css"
 
 import {
   PhantomWalletAdapter,
